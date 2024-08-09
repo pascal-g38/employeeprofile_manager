@@ -160,6 +160,20 @@
           "name": "sap.fe.templates.ObjectPage",
           "options": {
             "settings": {
+              "content": {
+                "body": {
+                   "sections": {
+                      "RTESection": {
+                         "template": "employeeprofilemanager.fragment.RTESection",
+                         "title": "{i18n>RTESection}",
+                         "position": {
+                            "placement": "After",
+                            "anchor": "RTESection"
+                      }
+                    }
+                  }
+                }
+              },
               "editableHeaderContent": false,
               "contextPath": "/ZM_C_EmployeeProfile_Manager/_ProfileEntry"
             }
