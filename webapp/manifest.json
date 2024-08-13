@@ -53,6 +53,15 @@
     }
   },
   "sap.ui5": {
+    "extends": {
+      "extensions": {
+        "sap.ui.controllerExtensions": {
+          "sap.fe.templates.ObjectPage.ObjectPageController#employeeprofilemanager::ZM_C_ProfileEntry_ManagerObjectPage": {
+            "controllerName": "employeeprofilemanager.controller.RTESectionExtend"
+          }
+        }
+      }
+    },
     "flexEnabled": true,
     "dependencies": {
       "minUI5Version": "1.120.16",
@@ -63,15 +72,6 @@
         "sap.fe.templates": {}
       }
     },
-    "extends": {
-      "extensions": {
-          "sap.ui.controllerExtensions": {
-              "sap.fe.templates.ObjectPage.ObjectPageController#employeeprofilemanager:ZM_C_ProfileEntry_ManagerObjectPage": {
-                  "controllerName": "employeeprofilemanager.controller.RTESection"
-              }
-          }
-      }
-   },
     "contentDensities": {
       "compact": true,
       "cozy": true
@@ -171,13 +171,13 @@
             "settings": {
               "content": {
                 "body": {
-                   "sections": {
-                      "RTESection": {
-                         "template": "employeeprofilemanager.fragment.RTESection",
-                         "title": "{i18n>RTESection}",
-                         "position": {
-                            "placement": "After",
-                            "anchor": "Description"
+                  "sections": {
+                    "RTESection": {
+                      "template": "employeeprofilemanager.fragment.RTESection",
+                      "title": "{i18n>RTESection}",
+                      "position": {
+                        "placement": "Before",
+                        "anchor": "Description"
                       }
                     }
                   }
