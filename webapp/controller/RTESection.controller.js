@@ -1,7 +1,7 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/ui/richtexteditor/RichTextEditor"
- //   "sap/fe/macros/RichTextEditor"
+ //   "sap/ui/richtexteditor/RichTextEditor"
+    "sap/fe/macros/RichTextEditor"
     ], (Controller, RichTextEditor) => {
     //	"use strict";
     

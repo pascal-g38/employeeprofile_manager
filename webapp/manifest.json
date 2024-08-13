@@ -63,6 +63,15 @@
         "sap.fe.templates": {}
       }
     },
+    "extends": {
+      "extensions": {
+          "sap.ui.controllerExtensions": {
+              "sap.fe.templates.ObjectPage.ObjectPageController#employeeprofilemanager:ZM_C_ProfileEntry_ManagerObjectPage": {
+                  "controllerName": "employeeprofilemanager.controller.RTESection"
+              }
+          }
+      }
+   },
     "contentDensities": {
       "compact": true,
       "cozy": true
@@ -168,7 +177,7 @@
                          "title": "{i18n>RTESection}",
                          "position": {
                             "placement": "After",
-                            "anchor": "RTESection"
+                            "anchor": "Description"
                       }
                     }
                   }

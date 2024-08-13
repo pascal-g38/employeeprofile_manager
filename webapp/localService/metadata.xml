@@ -1033,7 +1033,7 @@
                         <Record Type="SAP__UI.ReferenceFacet">
                             <PropertyValue Property="Label" String="Beschreibung"/>
                             <PropertyValue Property="ID" String="Description"/>
-                            <PropertyValue Property="Target" AnnotationPath="_ProfileEntrySkill/@SAP__UI.Identification">
+                            <PropertyValue Property="Target" AnnotationPath="_ProfileEntrySkill/@SAP__UI.LineItem">
                                 <Annotation Term="SAP__core.Messages">
                                     <Collection>
                                         <Record>
