@@ -9,6 +9,7 @@
       <rte:RichTextEditor id="richTextEditorId"
                           width="100%"
                           height="600px"
+                          value="{_ProfileEntry/Description}"
                           showGroupFont="true"
                           showGroupLink="true"
                           showGroupInsert="true" 
