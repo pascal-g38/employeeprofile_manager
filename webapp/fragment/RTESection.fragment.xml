@@ -13,9 +13,6 @@
                           showGroupLink="true"
                           showGroupInsert="true" 
                           showGroupFontStyle="true"
-                          readyRecurring="extension.employeeprofilemanager.controller.RTESectionExtend.onRTEready"
-                          change="extension.employeeprofilemanager.controller.RTESectionExtend.onRTEready"
-                          ready="employeeprofilemanager.controller.RTESectionExtend.onRTEready"
   ></rte:RichTextEditor>     
 </FlexBox>
 </mvc:View>
