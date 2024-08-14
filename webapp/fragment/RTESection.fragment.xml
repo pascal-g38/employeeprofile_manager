@@ -9,11 +9,12 @@
       <rte:RichTextEditor id="richTextEditorId"
                           width="100%"
                           height="600px"
-                          value="{_ProfileEntry/Description}"
+                          value="{Description}"
                           showGroupFont="true"
                           showGroupLink="true"
                           showGroupInsert="true" 
                           showGroupFontStyle="true"
+                          editable="false"
   ></rte:RichTextEditor>     
 </FlexBox>
 </mvc:View>
