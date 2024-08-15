@@ -14,7 +14,7 @@
                           showGroupLink="true"
                           showGroupInsert="true" 
                           showGroupFontStyle="true"
-                          editable="false"
+                          editable="{= ${ui>/editMode} === 'Display' ? false : true }"
   ></rte:RichTextEditor>     
 </FlexBox>
 </mvc:View>
