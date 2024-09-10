@@ -58,6 +58,9 @@
         "sap.ui.controllerExtensions": {
           "sap.fe.templates.ObjectPage.ObjectPageController#employeeprofilemanager::ZM_C_ProfileEntry_ManagerObjectPage": {
             "controllerName": "employeeprofilemanager.controller.RTESectionExtend"
+          },
+          "sap.fe.templates.ObjectPage.ObjectPageController#employeeprofilemanager::ZM_C_EmployeeProfile_ManagerObjectPage": {
+            "controllerName": "employeeprofilemanager.controller.EmployeeSkillsExtend"
           }
         }
       }
@@ -157,6 +160,20 @@
                 "_ProfileEntry": {
                   "detail": {
                     "route": "ZM_C_ProfileEntry_ManagerObjectPage"
+                  }
+                }
+              },
+              "content": {
+                "body": {
+                  "sections": {
+                    "EmployeeSkillsSection": {
+                      "template": "employeeprofilemanager.fragment.EmployeeSkillsSection",
+                      "title": "{i18n>EmployeeSkillsSectionDescription}",
+                      "position": {
+                        "placement": "Before"
+                      },
+                      "type": "XMLFragment"
+                    }
                   }
                 }
               }
