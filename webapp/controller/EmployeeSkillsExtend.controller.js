@@ -7,7 +7,7 @@ sap.ui.define([
         _sectionPrefix: "fe::CustomSubSection::EmployeeSkillsSection--",
         override: {   
             onInit() { 
-         
+              this.getView().byId(this._sectionPrefix + "textId")
             }
           }      
         });

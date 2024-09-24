@@ -4,7 +4,7 @@
   height="100%"
   xmlns:mvc="sap.ui.core.mvc"
   >
-<Text id="text" 
+<Text id="textId" 
       text="Hello World"></Text>
 
 
